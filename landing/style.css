@@ -1,0 +1,177 @@
+/* give the background an images, define the width, margin and padding.*/
+.container {
+    background-image: url(chicken.png);
+    padding: 0 35px;
+    margin: 0 auto;
+    border: 1px solid #707070;      
+}
+
+@media screen and (max-width: 600px) {
+    body, .container {
+      width: 100%;
+    }
+  }
+/* Positioned the logo to the left with a width of 50px to make it small */ 
+.site-logo {
+    float: right;
+    width: 50px;
+}
+
+/* give the site title and logo a magin and padding a the bottom*/
+.header {
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+}
+
+/*Style the div to create a red line defining the position, width and height. */
+.redline {
+    top: 271px;
+    left: 89px;
+    width: 0px;
+    height: 297px;
+    
+}
+.grilled {
+    top: 457px;
+    left: 128px;
+    color: #000000;
+    padding: auto;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.text {
+    /* Layout Properties */
+    top: 539px;
+    left: 130px;
+    width: 643px;
+    color:#9E7474;
+}
+
+.textl {
+    margin-top: 25px;
+}
+
+.textii {
+    margin: 0;
+}
+/* Give the h1 a font, font-size and font-weight */
+h1 {
+    font-family: Arial, sans-serif;
+    font: bold;
+    font-weight: 500px;
+}
+
+/*style the about section to give it a gap between the red line. */
+.about {
+    color: #D85A5A;
+    display: block;
+    position: absolute;
+    width: 1229px;
+    margin-top: 45px;
+    top: 88px;
+    left: 60px;
+    height: 68px;
+}
+
+/*Style the main text*/
+.title-head {
+    color: #000000;
+    top: 289px;
+    left: 127px;
+    width: 384px;
+    font: 900px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Style the first Redline.*/
+.long {
+    top: 271px;
+    left: 89px;
+    width: 0px;
+    height: 185px;
+    border: 3px solid #d85a5a;
+    opacity: 1;
+}
+
+/*Style the second redline.*/
+.small {
+    top: 617px;
+    left: 89px;
+    width: 0px;
+    height: 12px;
+    opacity: 1;
+    margin-top: 35px;
+    border: 3px solid #d85a5a;
+}
+
+
+/*Style the menu buttons to give it a border background width and margin*/
+.menu-button {
+    border-radius: 60px;
+    margin-top: 35px;
+    color: #FFFFFF;
+    left: 100px;
+    width: 100px;
+    padding: 10px;
+    background-color: #d85a5a;
+    border: #d85a5a;
+    font-size: 10px;
+}
+
+
+/*Style book table to be the same with menu button*/
+.book-table {
+    margin-left: 15px;
+    border-radius: 60px;
+    margin-top: 35px;
+    width: 100px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border: #FFFFFF;
+    text-decoration-color: #d85a5a;
+    box-shadow: 1px 1px 2px #857979;
+    color: #d85a5a;
+    font-size: 10px;
+}
+
+/*Style the two buttons to give it a position*/
+.buttons {    
+    position: relative;
+    left: 30px;
+    margin: 20px;
+    
+}
+
+/*Style the lunch to give it a font size and margin*/
+.lunch {
+    font-size: medium;
+    padding: 5px; 
+    
+}
+
+/*Style the time to give it font size, color and opacity*/
+.time {
+    top: 865px;
+    left: 130px;
+    width: 193px;
+    color:#9E7474;
+    font-size: small;
+    opacity: 0.5;      
+}
+
+/*Style the arrow button to give it a position and margin*/
+.arrow {
+    position: relative;
+    left: 75px;
+    margin: auto;
+}
+section {
+    margin-bottom: 20px;
+  }
+footer {
+    background-color: #895656;
+    color: #fff;
+    padding: 2px;
+    text-align: center;
+  }
